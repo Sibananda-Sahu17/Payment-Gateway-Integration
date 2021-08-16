@@ -183,7 +183,7 @@ html {
   text-align: center;
 }
 
-.para , .para2{
+.para{
   justify-content: space-between;
   font-family: "Caveat", cursive;
   line-height: 1.2;
@@ -198,6 +198,21 @@ html {
   letter-spacing: 1px;
 }
 
+.para2{
+  justify-content: space-between;
+  font-family: "Caveat", cursive;
+  line-height: 1.2;
+  padding-top: 15px;
+  display: flex;
+  font-size: 3vw;
+  
+  margin-bottom: 5px;
+  color: white;
+  padding-left: 65px;
+  padding-right: 65px;
+  letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 600px) {
   .aDetail,
   .content,
@@ -205,12 +220,24 @@ html {
     align-items: center;
     justify-content: center;
   }
-  .para, .para2 {
+  .para {
     padding-left: 25px;
     padding-right: 25px;
     margin: 0;
     display: block;
   }
+}
+
+@media only screen and (max-width: 450px){
+  .para2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0;
+    display: block;
+  }
+
 }
 
 .btn2, .btn1 {
@@ -254,7 +281,7 @@ html {
   display: flex;
   flex-wrap: wrap;
 
-  min-height: 50vh;
+  min-height: 30vh;
   min-width: 70vw;
   align-items: center;
   justify-content: center;
