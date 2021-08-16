@@ -262,23 +262,6 @@ html {
   padding: 0;
 }
 
-/* .para2 {
-  justify-content: space-between;
-  font-family: "Caveat", cursive;
-  line-height: 1.2;
-  padding-top: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  letter-spacing: 1px;
-  font-size: 3vw;
-
-  margin-bottom: 30px;
-  color: rgb(235, 231, 213);
-  padding-left: 65px;
-  padding-right: 65px;
-} */
-
 .container {
   position: relative;
   width: 100%;
